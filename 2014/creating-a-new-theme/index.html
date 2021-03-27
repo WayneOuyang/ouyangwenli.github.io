@@ -10,7 +10,7 @@
   
   
   
-  <link rel="prev" href="https://example.com/2014/goisforlovers/" />
+  <link rel="prev" href="https://example.com/2014/migrate-from-jekyll/" />
   
   <link rel="canonical" href="https://example.com/2014/creating-a-new-theme/" />
   <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
@@ -55,8 +55,8 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
     "height":  600 
   },
   "genre": "posts",
-  "keywords": "Theme, Hugo",
-  "wordcount":  7232 ,
+  
+  "wordcount":  7233 ,
   "url": "https:\/\/example.com\/2014\/creating-a-new-theme\/",
   "datePublished": "2014-09-28T00:00:00\u002b00:00",
   "dateModified": "2014-09-28T00:00:00\u002b00:00",
@@ -73,7 +73,7 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
   },
   "author": {
     "@type": "Person",
-    "name": "Michael Henderson"
+    "name": "map[name:Michael Henderson]"
   },
   "description": ""
 }
@@ -100,8 +100,6 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
                 
                 <a class="menu-item" href="/about" title="">About</a>
                 
-                <a class="menu-item" href="/about/" title="About Hugo">About Hugo</a>
-                
                 <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;
         </div>
     </div>
@@ -124,8 +122,6 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
                 
                 <a class="menu-item" href="/about" title="">About</a>
                 
-                <a class="menu-item" href="/about/" title="About Hugo">About Hugo</a>
-                
         </div>
     </div>
 </nav>
@@ -137,16 +133,12 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
     <header class="post-header">
         <h1 class="post-title">Creating a New Theme</h1>
         <div class="post-meta">
-            Written by <a href="https://example.com" rel="author">Michael Henderson</a> with ♥ 
+            Written by <a href="https://example.com" rel="author">map[name:Michael Henderson]</a> with ♥ 
                 <span class="post-time">
                     on <time datetime=2014-09-28 >28 September 2014</time>
                 </span>
                 in
-                <i class="iconfont icon-folder"></i>
-                <span class="post-category">
-                        <a href="https://example.com/categories/uncategorized/"> Uncategorized </a>
-                        
-                </span>
+                
                 <i class="iconfont icon-timer"></i>
                 34 min
         </div>
@@ -177,7 +169,7 @@ $ echo this is a command
 this is a command
 
 ## edit the file
-$vi foo.md
+$ vi foo.md
 +++
 date = &quot;2014-09-28&quot;
 title = &quot;creating a new theme&quot;
@@ -986,7 +978,7 @@ $ vi themes/zafta/layouts/_default/single.html
            
             <p class="copyright-item">
                     <span>Words:</span>
-                   <span>7232</span>
+                   <span>7233</span>
             </p>
             
             <p class="copyright-item">
@@ -1041,17 +1033,6 @@ $ vi themes/zafta/layouts/_default/single.html
   
     <div class="post-tags">
         
-            <section>
-            <i class="iconfont icon-icon-tag"></i>Tag: 
-            
-            <span class="tag"><a href="https://example.com/tags/theme/">
-                    #Theme</a></span>
-            
-            <span class="tag"><a href="https://example.com/tags/hugo/">
-                    #Hugo</a></span>
-            
-            </section>
-        
         <section>
                 <a href="javascript:window.history.back();">Back</a></span> · 
                 <span><a href="https://example.com">Home</a></span>
@@ -1060,7 +1041,7 @@ $ vi themes/zafta/layouts/_default/single.html
 
     <div class="post-nav">
         
-        <a href="https://example.com/2014/goisforlovers/" class="prev" rel="prev" title="(Hu)go Template Primer"><i class="iconfont icon-dajiantou"></i>&nbsp;(Hu)go Template Primer</a>
+        <a href="https://example.com/2014/migrate-from-jekyll/" class="prev" rel="prev" title="Migrate to Hugo from Jekyll"><i class="iconfont icon-dajiantou"></i>&nbsp;Migrate to Hugo from Jekyll</a>
          
         
     </div>

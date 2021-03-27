@@ -5,20 +5,20 @@
     <description>Recent content in KeepIt on KeepIt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://example.com/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Posts</title>
       <link>https://example.com/posts/</link>
-      <pubDate>Wed, 29 Aug 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/posts/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>About Hugo</title>
+      <title>About</title>
       <link>https://example.com/about/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
@@ -34,6 +34,15 @@
 &lt;/ul&gt;
 &lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://example.com/projects/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/projects/</guid>
+      <description></description>
     </item>
     
   </channel>
