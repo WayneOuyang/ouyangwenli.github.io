@@ -24,10 +24,10 @@
   <title>
        
        
-           Creating a New Theme | KeepIt
+           Creating a New Theme | A HERO CAN BE ANYONE
        
   </title>
-  <meta name="title" content="Creating a New Theme | KeepIt">
+  <meta name="title" content="Creating a New Theme | A HERO CAN BE ANYONE">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -89,7 +89,7 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
         <nav class="navbar">
     <div class="container">
         <div class="navbar-header header-logo">
-        	<a href="https://example.com">KeepIt</a>
+        	<a href="https://example.com">A HERO CAN BE ANYONE</a>
         </div>
         <div class="menu navbar-right">
                 
@@ -107,7 +107,7 @@ We&rsquo;ll start with creating a new site with a very basic template."/>
 <nav class="navbar-mobile" id="nav-mobile" style="display: none">
      <div class="container">
         <div class="navbar-header">
-            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;<a href="https://example.com">KeepIt</a></div>
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;<a href="https://example.com">A HERO CAN BE ANYONE</a></div>
             <div class="menu-toggle">
                 <span></span><span></span><span></span>
             </div>
@@ -972,7 +972,7 @@ $ vi themes/zafta/layouts/_default/single.html
              
             <p class="copyright-item">
                 <span>Author:</span>
-                <span>Fastbyte01 </span>
+                <span>Wayne Ouyang </span>
                 </p>
             
            
@@ -987,7 +987,7 @@ $ vi themes/zafta/layouts/_default/single.html
                 <span>
 
       
-        <a href="//twitter.com/share?url=https%3a%2f%2fexample.com%2f2014%2fcreating-a-new-theme%2f&amp;text=Creating%20a%20New%20Theme&amp;via=xxxx" target="_blank" title="Share on Twitter">
+        <a href="//twitter.com/share?url=https%3a%2f%2fexample.com%2f2014%2fcreating-a-new-theme%2f&amp;text=Creating%20a%20New%20Theme&amp;via=" target="_blank" title="Share on Twitter">
           <i class="iconfont icon-twitter"></i>
         </a>
         
@@ -1048,7 +1048,7 @@ $ vi themes/zafta/layouts/_default/single.html
 
     <div class="post-comment">
           
-          <div id="disqus_thread"></div>
+              <div id="disqus_thread"></div>
   <script type="text/javascript">
       (function() {
           
@@ -1062,7 +1062,42 @@ $ vi themes/zafta/layouts/_default/single.html
       })();
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  <a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  <a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a><div id="gitalk-container"></div>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js" crossorigin="anonymous"></script>
+      <script type="text/javascript">
+          var gitalk = new Gitalk({
+              id: '2014-09-28 00:00:00 \u002b0000 UTC',
+              title: 'Creating a New Theme',
+              clientID: 'a34c21133721b5f5bd65',
+              clientSecret: '42469506991e22652bf95612da1e6421929b3f92',
+              repo: 'blog-comments',
+              owner: 'WayneOuyang',
+              admin: ['WayneOuyang'],
+              body: decodeURI(location.href)
+          });
+          gitalk.render('gitalk-container');
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://github.com/gitalk/gitalk">comments powered by gitalk.</a></noscript><span id="/2014/creating-a-new-theme/" class="leancloud_visitors" data-flag-title="Creating a New Theme">
+            <span class="post-meta-item-text"> Visitors: </span>
+            <span class="leancloud-visitors-count">0</span>
+            <p></p>
+        </span><div id="vcomments"></div>
+        <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+        <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+        <script type="text/javascript">
+            new Valine({
+                el: '#vcomments',
+                lang: "en",
+                appId: "your appId",
+                appKey: "your appKey",
+                notify:  false ,
+                verify:  false ,
+                avatar: "mm",
+                placeholder: "your comments ...",
+                visitor:  true ,
+            });
+        </script>
 
  
 
@@ -1075,10 +1110,10 @@ $ vi themes/zafta/layouts/_default/single.html
     <div class="copyright">
         &copy;
         
-        <span itemprop="copyrightYear">2012 - 2021</span>
+        <span itemprop="copyrightYear">2020 - 2021</span>
         
          
-            <span class="author" itemprop="copyrightHolder"><a href="https://example.com">Fastbyte01</a> | </span>
+            <span class="author" itemprop="copyrightHolder"><a href="https://example.com">Wayne Ouyang</a> | </span>
          
 
 		  <span>Crafted with ❤️ by <a href="https://github.com/Fastbyte01/KeepIt" target="_blank" rel="external nofollow noopener noreffer">KeepIt</a> & <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a></span>

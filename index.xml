@@ -1,26 +1,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>KeepIt on KeepIt</title>
+    <title>A HERO CAN BE ANYONE on A HERO CAN BE ANYONE</title>
     <link>https://example.com/</link>
-    <description>Recent content in KeepIt on KeepIt</description>
+    <description>Recent content in A HERO CAN BE ANYONE on A HERO CAN BE ANYONE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://example.com/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Posts</title>
-      <link>https://example.com/posts/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>About</title>
+      <title>About Me</title>
       <link>https://example.com/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://example.com/about/</guid>
       <description>&lt;p&gt;Hugo is the &lt;strong&gt;world’s fastest framework for building websites&lt;/strong&gt;. It is written in Go.&lt;/p&gt;
@@ -37,11 +28,11 @@
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>https://example.com/projects/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      <title>Posts</title>
+      <link>https://example.com/posts/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/projects/</guid>
+      <guid>https://example.com/posts/</guid>
       <description></description>
     </item>
     
